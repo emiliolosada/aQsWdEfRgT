@@ -6,6 +6,7 @@ gem 'bcrypt-ruby', '3.0.1'
 
 group :development do
   gem 'annotate', '2.5.0'
+  gem 'migration_comments', :git => 'https://github.com/pinnymz/migration_comments.git'
 end
 
 group :development, :test do

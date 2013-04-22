@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/pinnymz/migration_comments.git
+  revision: 2b412e8ca9e98e55d54ea541c3104242b7e25f17
+  specs:
+    migration_comments (0.2.1)
+      rails (>= 2.3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -185,6 +192,7 @@ DEPENDENCIES
   guard-rspec (= 1.2.1)
   guard-spork (= 1.2.0)
   jquery-rails (= 2.0.2)
+  migration_comments!
   pg (= 0.12.2)
   rails (= 3.2.13)
   rb-fsevent (= 0.9.1)
