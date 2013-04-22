@@ -9,6 +9,7 @@
 #  updated_at      :datetime         not null
 #  password_digest :string(255)
 #  remember_token  :string(255)                            # Secure token to remember user session
+#  admin           :boolean          default(FALSE)        # User with admin privileges
 #
 
 class User < ActiveRecord::Base
