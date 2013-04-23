@@ -26,6 +26,8 @@ Generate code:
 
 	rails generate scaffold User name:string email:string
 
+	rake routes
+
 Database:
 	#Annotation 
 		gem 'annotate'
@@ -93,3 +95,9 @@ Heroku:
 	git push heroku master
 	git push heroku
 	heroku logs
+
+#Other
+	#Ensuring that Rails throws errors on invalid mass assignment
+		config.active_record.whitelist_attributes = true
+	#Counter cache column
+		http://railscasts.com/episodes/23-counter-cache-column
