@@ -18,7 +18,9 @@ end
 module Railstutorial
   class Application < Rails::Application
 
+    #Create an empty whitelist of attributes available for mass-assignment security
     config.active_record.whitelist_attributes = true
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
